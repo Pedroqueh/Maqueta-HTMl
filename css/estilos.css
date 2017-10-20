@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif; /*família tipografia*/
+    color: #6b6b6b; /*color de la tipografia*/
+    font-size: 15px; /*tamaño de toda la tipografia del sitio, menos los H's*/
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    float: left;
+    font-family: 'Nosifer', cursive;
+}
+h2{
+    font-size: 300%; /*tamaño de tipografia de todos los h2 del sitio*/
+    font-weight: lighter; /*grosor de tipografia h2*/
+    margin: 0;
+}
+h3{
+    font-size: 166.66%;
+    font-weight: lighter;
+}
+p{
+    line-height: 25px;
+}
+#Header{
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 2px solid #2b3c4d;
+}
+#Home, #About, #Team, #Portafolio, #Contacto{
+    padding: 70px 0;
+    clear: both;
+}
+
+.centrar-caja{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+#Home, #Header{ /*la  coma ',' sirve para definir los mismos parámetros para más de una sección*/
+    background-color: #2c3e50;
+    color: #FFF;
+}
+#Team, #Contacto{
+    background-color: #eee;
+}
+#Team{
+    overflow: hidden
+}
+nav{
+    float: right;
+}
+nav ul{ /*estilo de la lista del menu*/
+    list-style: none;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    margin: 8px
+}
+nav a{ /*estilo de la tipografia del menu*/
+    color: #7e95ae;
+    text-decoration: none;
+}
+nav a:hover{ /*estilo de la lista del menu cuando se pasa el mouse por encima*/
+    color: #FFF;
+    text-decoration: underline;
+}
+footer ul{ /*estilo de la lista del footer*/
+    list-style: none;
+}
+footer li{
+    display: inline
+}
+footer a{ /*estilo de la tipografia del footer*/
+    color: #6b6b6b;
+    text-decoration: none;
+}
+.Portafolio-nav{ /*comienzo de .clases (.class)*/
+    list-style: none;
+}
+.Portafolio-nav li{
+    display: inline-block;
+}
+.Portafolio-nav a{
+    color: #a1a1a1;
+    text-decoration: none;
+    border: solid 1px #a1a1a1;
+    padding: 8px 20px;
+    border-radius: 3px;
+}
+.Portafolio-nav a:hover{
+    color: #2c3e50;
+    border-color: #2c3e50;
+}
+.Team-user{
+    width: 25%;
+    float: left;
+    padding: 10px
+}
+.Team-a{
+    color: #FFFFFF;
+    border: solid 1px #2c3e50;
+    padding: 7px 10px;
+    border-radius: 3px;
+    background-color: #2c3e50;
+    text-decoration: none;
+}
+.portafolio-item{
+    float: left;
+    width: 30%;
+    margin: 1.65%;
+    position: relative;
+}
+.portafolio-item img{
+    width: 100%;
+}
+.portafolio-item figcaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.50);
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+    
+}
+.portafolio-item figcaption h3{
+    line-height: 2px;
+    margin-bottom: 2px;
+}
+.portafolio-item figcaption p{
+    line-height: 18px;
+}
+input, textarea{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #9a9a9a;
+    border-radius: 3px;
+}
+input[type="submit"]{
+    width: 10%;
+    background-color: #2c3e50;
+    color: white;
+    border-color: #2c3e50;
+    font-size: 18px;    
+}
+
